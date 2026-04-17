@@ -14,7 +14,7 @@ This project explores deep learning for image recognition, starting from buildin
 
 ### Task 1 — Build and Train a CNN
 
-![Training Curve](images/training_curve.png)
+<img src="images/training_curve.png" width="600"/>
 
 ### Task 1 — Build and Train a CNN
 - Loaded and visualized the MNIST digit dataset
@@ -25,7 +25,7 @@ This project explores deep learning for image recognition, starting from buildin
 
 ### Task 2 — Examine the Network
 
-![Filter Effects](images/filter_effects.png)
+<img src="images/filter_effects.png" width="600"/>
 - Visualized the 10 learned 5×5 filters from `conv1` as heatmaps
 - Applied each filter to a training image using `cv2.filter2D` and analyzed the outputs
 - Identified edge detectors, contrast enhancers, diagonal filters, texture filters, and smoothing filters
@@ -35,6 +35,10 @@ This project explores deep learning for image recognition, starting from buildin
 - Froze all layers except the final `fc2` layer (replaced with `Linear(50 → 3)`)
 - Trained on only **27 examples**, achieving near-perfect classification within ~15 epochs
 - Tested on custom handwritten Greek letter photos (8/9 correct)
+
+### Task 3 — Transfer Learning on Greek Letters
+
+<img src="images/greek_predictions.png" width="600"/>
 
 ### Task 4 — Vision Transformer (ViT)
 - Re-implemented the recognition pipeline using Transformer encoder layers
@@ -53,7 +57,7 @@ Systematically evaluated **4 dimensions** using a round-robin linear search stra
 
 ### Extension — Gabor Filter Bank
 
-![Gabor Comparison](images/gabor_comparison.png)
+<img src="images/gabor_comparison.png" width="600"/>
 - Replaced `conv1` with a **fixed hand-crafted Gabor filter bank** (10 filters, 5 orientations × 2 frequencies)
 - Frozen first layer, trained only `conv2`, `fc1`, `fc2`
 - **GaborNet achieved 98.9% accuracy — outperforming the fully trained CNN by +0.8%**
