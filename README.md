@@ -57,7 +57,7 @@ Systematically evaluated **4 dimensions** using a round-robin linear search stra
 
 ### Extension — Gabor Filter Bank
 
-<img src="images/gabor_comparison.png" width="600"/>
+<img src="images/gabor_comparison.png" width="700"/>
 - Replaced `conv1` with a **fixed hand-crafted Gabor filter bank** (10 filters, 5 orientations × 2 frequencies)
 - Frozen first layer, trained only `conv2`, `fc1`, `fc2`
 - **GaborNet achieved 98.9% accuracy — outperforming the fully trained CNN by +0.8%**
