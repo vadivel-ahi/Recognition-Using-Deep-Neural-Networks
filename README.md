@@ -1,4 +1,3 @@
-# Recognition-Using-Deep-Neural-Networks
 # Project 5: Recognition using Deep Networks
 ### CS5330 — Pattern Recognition & Computer Vision
 **Ahilesh Vadivel | Northeastern University**
