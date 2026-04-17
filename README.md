@@ -14,7 +14,7 @@ This project explores deep learning for image recognition, starting from buildin
 
 ### Task 1 — Build and Train a CNN
 
-<img src="images/training_curve.png" width="600"/>
+<img src="images/training_curve.png" width="300"/>
 
 ### Task 1 — Build and Train a CNN
 - Loaded and visualized the MNIST digit dataset
@@ -25,7 +25,7 @@ This project explores deep learning for image recognition, starting from buildin
 
 ### Task 2 — Examine the Network
 
-<img src="images/filter_effects.png" width="600"/>
+<img src="images/filter_effects.png" width="300"/>
 - Visualized the 10 learned 5×5 filters from `conv1` as heatmaps
 - Applied each filter to a training image using `cv2.filter2D` and analyzed the outputs
 - Identified edge detectors, contrast enhancers, diagonal filters, texture filters, and smoothing filters
@@ -38,7 +38,7 @@ This project explores deep learning for image recognition, starting from buildin
 
 ### Task 3 — Transfer Learning on Greek Letters
 
-<img src="images/custom_greek_results.png" width="600"/>
+<img src="images/custom_greek_results.png" width="300"/>
 
 ### Task 4 — Vision Transformer (ViT)
 - Re-implemented the recognition pipeline using Transformer encoder layers
