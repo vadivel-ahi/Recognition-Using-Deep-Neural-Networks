@@ -1,3 +1,3 @@
-#Plots and Results
-
-  This file contains the learning curves and the output results
+# Learning Curves and Performance Outputs
+   
+   This folder contains learning curves and preformance outputs.
