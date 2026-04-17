@@ -38,7 +38,7 @@ This project explores deep learning for image recognition, starting from buildin
 
 ### Task 3 — Transfer Learning on Greek Letters
 
-<img src="images/greek_predictions.png" width="600"/>
+<img src="images/custom_greek_results.png" width="600"/>
 
 ### Task 4 — Vision Transformer (ViT)
 - Re-implemented the recognition pipeline using Transformer encoder layers
