@@ -13,6 +13,10 @@ This project explores deep learning for image recognition, starting from buildin
 ## Tasks
 
 ### Task 1 — Build and Train a CNN
+
+![Training Curve](images/training_curve.png)
+
+### Task 1 — Build and Train a CNN
 - Loaded and visualized the MNIST digit dataset
 - Built a CNN with two convolutional blocks, max pooling, dropout, and fully connected layers
 - Trained for 5 epochs achieving **98.6% test accuracy**
@@ -20,6 +24,8 @@ This project explores deep learning for image recognition, starting from buildin
 - Saved the trained model to `mnist_model.pth`
 
 ### Task 2 — Examine the Network
+
+![Filter Effects](images/filter_effects.png)
 - Visualized the 10 learned 5×5 filters from `conv1` as heatmaps
 - Applied each filter to a training image using `cv2.filter2D` and analyzed the outputs
 - Identified edge detectors, contrast enhancers, diagonal filters, texture filters, and smoothing filters
@@ -46,6 +52,8 @@ Systematically evaluated **4 dimensions** using a round-robin linear search stra
 | Batch size | 16 → 512 | 16–32 (clear monotonic drop) |
 
 ### Extension — Gabor Filter Bank
+
+![Gabor Comparison](images/gabor_comparison.png)
 - Replaced `conv1` with a **fixed hand-crafted Gabor filter bank** (10 filters, 5 orientations × 2 frequencies)
 - Frozen first layer, trained only `conv2`, `fc1`, `fc2`
 - **GaborNet achieved 98.9% accuracy — outperforming the fully trained CNN by +0.8%**
